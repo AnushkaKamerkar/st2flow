@@ -18,11 +18,11 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { PropTypes } from 'prop-types';
 
-import BooleanField from '@stackstorm/module-auto-form/fields/boolean';
-import StringField from '@stackstorm/module-auto-form/fields/string';
-import EnumField from '@stackstorm/module-auto-form/fields/enum';
-import Button from '@stackstorm/module-forms/button.component';
-import { isJinja } from '@stackstorm/module-auto-form/fields/base';
+import BooleanField from '@coditation/module-auto-form/fields/boolean';
+import StringField from '@coditation/module-auto-form/fields/string';
+import EnumField from '@coditation/module-auto-form/fields/enum';
+import Button from '@coditation/module-forms/button.component';
+import { isJinja } from '@coditation/module-auto-form/fields/base';
 
 import { Panel, Toolbar, ToolbarButton } from './layout';
 import Parameters from './parameters-panel';

@@ -17,11 +17,11 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 
-import ArrayField from '@stackstorm/module-auto-form/fields/array';
-import IntegerField from '@stackstorm/module-auto-form/fields/integer';
-import StringField from '@stackstorm/module-auto-form/fields/string';
-import EnumField from '@stackstorm/module-auto-form/fields/enum';
-import Button from '@stackstorm/module-forms/button.component';
+import ArrayField from '@coditation/module-auto-form/fields/array';
+import IntegerField from '@coditation/module-auto-form/fields/integer';
+import StringField from '@coditation/module-auto-form/fields/string';
+import EnumField from '@coditation/module-auto-form/fields/enum';
+import Button from '@coditation/module-forms/button.component';
 
 import Property from './property';
 import { specialProperties } from './parameter';

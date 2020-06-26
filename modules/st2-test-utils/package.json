@@ -1,5 +1,5 @@
 {
-  "name": "@stackstorm/module-test-utils",
+  "name": "@coditation/module-test-utils",
   "version": "2.0.0",
   "description": "",
   "main": "test-utils.js",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stackstorm/st2web.git"
+    "url": "git+https://github.com/coditation/st2web.git"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/stackstorm/st2web/issues"
+    "url": "https://github.com/coditation/st2web/issues"
   },
-  "homepage": "https://github.com/stackstorm/st2web#readme",
+  "homepage": "https://github.com/coditation/st2web#readme",
   "browserify": {
     "transform": [
       "babelify"

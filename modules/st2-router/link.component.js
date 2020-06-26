@@ -17,7 +17,7 @@ import { PropTypes } from 'prop-types';
 import { createLocation, createPath } from 'history';
 import { connect } from 'react-redux';
 
-import router from '@stackstorm/module-router/methods';
+import router from '@coditation/module-router/methods';
 
 const isModifiedEvent = event =>
   !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);

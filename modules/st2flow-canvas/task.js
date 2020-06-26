@@ -14,7 +14,7 @@
 
 //@flow
 
-import type { CanvasPoint, TaskInterface } from '@stackstorm/st2flow-model/interfaces';
+import type { CanvasPoint, TaskInterface } from '@coditation/st2flow-model/interfaces';
 
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
@@ -25,7 +25,7 @@ import Vector from './vector';
 import { origin } from './const';
 
 import style from './style.css';
-import api from '@stackstorm/module-api';
+import api from '@coditation/module-api';
 
 export class Task extends Component<{
   task: TaskInterface,

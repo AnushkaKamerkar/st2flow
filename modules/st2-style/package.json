@@ -1,5 +1,5 @@
 {
-  "name": "@stackstorm/st2-style",
+  "name": "@coditation/st2-style",
   "version": "2.0.0",
   "description": "",
   "main": "style.js",
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stackstorm/st2web.git"
+    "url": "git+https://github.com/coditation/st2web.git"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/stackstorm/st2web/issues"
+    "url": "https://github.com/coditation/st2web/issues"
   },
-  "homepage": "https://github.com/stackstorm/st2web#readme",
+  "homepage": "https://github.com/coditation/st2web#readme",
   "browserify": {
     "transform": [
       "babelify",
       [
-        "@stackstorm/browserify-postcss",
+        "@coditation/browserify-postcss",
         {
           "extensions": [
             ".css"
@@ -46,7 +46,7 @@
     "normalize.css": "8.0.1"
   },
   "devDependencies": {
-    "@stackstorm/browserify-postcss": "0.3.4-patch.5",
+    "@coditation/browserify-postcss": "0.3.4-patch.5",
     "babelify": "10.0.0",
     "postcss": "7.0.14",
     "postcss-import": "12.0.1",

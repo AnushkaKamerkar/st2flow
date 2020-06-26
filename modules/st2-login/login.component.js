@@ -15,7 +15,7 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import cx from 'classnames';
-import api from '@stackstorm/module-api';
+import api from '@coditation/module-api';
 
 import componentStyle from './style.css';
 
@@ -161,8 +161,8 @@ export default class Login extends React.Component {
     };
   }
 
-  docsLink = 'https://docs.stackstorm.com/'
-  supportLink = 'https://forum.stackstorm.com/'
+  docsLink = 'https://docs.coditation.com/'
+  supportLink = 'https://forum.coditation.com/'
 
   connect(e) {
     e.preventDefault();

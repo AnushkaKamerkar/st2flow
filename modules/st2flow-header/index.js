@@ -19,7 +19,7 @@ import { PropTypes } from 'prop-types';
 import cx from 'classnames';
 import url from 'url';
 
-import api from '@stackstorm/module-api';
+import api from '@coditation/module-api';
 
 import style from './style.css';
 

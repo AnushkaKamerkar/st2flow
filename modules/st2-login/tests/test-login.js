@@ -15,11 +15,11 @@
 import { expect } from 'chai';
 
 import React from 'react';
-import { ReactTester } from '@stackstorm/module-test-utils';
+import { ReactTester } from '@coditation/module-test-utils';
 
-import '@stackstorm/module-test-utils/bootstrap/st2constants';
-import '@stackstorm/module-test-utils/bootstrap/storage';
-import '@stackstorm/module-test-utils/bootstrap/location';
+import '@coditation/module-test-utils/bootstrap/st2constants';
+import '@coditation/module-test-utils/bootstrap/storage';
+import '@coditation/module-test-utils/bootstrap/location';
 import Login from '..';
 
 describe(`${Login.name} Component`, () => {

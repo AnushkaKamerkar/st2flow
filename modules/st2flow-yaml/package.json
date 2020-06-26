@@ -1,5 +1,5 @@
 {
-  "name": "@stackstorm/st2flow-yaml",
+  "name": "@coditation/st2flow-yaml",
   "version": "1.0.0-pre.5",
   "description": "",
   "private": true,
@@ -19,7 +19,7 @@
     "babelify": "^10.0.0"
   },
   "dependencies": {
-    "@stackstorm/st2flow-perf": "1.0.0-pre.5",
+    "@coditation/st2flow-perf": "1.0.0-pre.5",
     "yaml-ast-parser": "0.0.43"
   }
 }

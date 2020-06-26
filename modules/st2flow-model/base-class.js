@@ -20,7 +20,7 @@ import Ajv from 'ajv';
 import { diff } from 'deep-diff';
 import EventEmitter from './event-emitter';
 
-import { TokenSet, crawler, util } from '@stackstorm/st2flow-yaml';
+import { TokenSet, crawler, util } from '@coditation/st2flow-yaml';
 
 const ajv = new Ajv();
 const STR_ERROR_YAML = 'yaml-error';

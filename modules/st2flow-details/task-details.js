@@ -20,12 +20,12 @@ import { PropTypes } from 'prop-types';
 import cx from 'classnames';
 import _ from 'lodash';
 
-import AutoForm from '@stackstorm/module-auto-form';
-import Button from '@stackstorm/module-forms/button.component';
+import AutoForm from '@coditation/module-auto-form';
+import Button from '@coditation/module-forms/button.component';
 import { Panel, Toolbar, ToolbarButton } from './layout';
-import { models } from '@stackstorm/st2flow-model';
+import { models } from '@coditation/st2flow-model';
 
-import StringField from '@stackstorm/module-auto-form/fields/string';
+import StringField from '@coditation/module-auto-form/fields/string';
 
 import Task from './task';
 import MistralProperties from './mistral-properties';

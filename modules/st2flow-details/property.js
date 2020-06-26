@@ -19,7 +19,7 @@ import type { Node } from 'react';
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 
-import { Toggle } from '@stackstorm/module-forms/button.component';
+import { Toggle } from '@coditation/module-forms/button.component';
 
 import style from './style.css';
 

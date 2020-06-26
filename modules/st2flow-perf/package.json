@@ -1,5 +1,5 @@
 {
-  "name": "@stackstorm/st2flow-perf",
+  "name": "@coditation/st2flow-perf",
   "version": "1.0.0-pre.5",
   "description": "A small performance library using the performance API and some extra smartness",
   "private": true,

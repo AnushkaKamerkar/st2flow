@@ -1,5 +1,5 @@
 {
-  "name": "@stackstorm/st2flow-model",
+  "name": "@coditation/st2flow-model",
   "version": "1.0.0-pre.5",
   "description": "",
   "private": true,
@@ -16,7 +16,7 @@
     ]
   },
   "dependencies": {
-    "@stackstorm/st2flow-yaml": "1.0.0-pre.5",
+    "@coditation/st2flow-yaml": "1.0.0-pre.5",
     "ajv": "^6.5.4",
     "dagre": "0.8.4",
     "deep-diff": "^1.0.2",

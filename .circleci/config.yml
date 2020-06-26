@@ -1,7 +1,7 @@
 # Setup in CircleCI account the following ENV variables:
 # IS_PRODUCTION (default: 0)
 # IS_ENTERPRISE
-# PACKAGECLOUD_ORGANIZATION (default: stackstorm)
+# PACKAGECLOUD_ORGANIZATION (default: coditation)
 # PACKAGECLOUD_TOKEN
 
 version: 2
@@ -21,7 +21,7 @@ jobs:
           name: Download helper scripts (for packagecloud)
           command: |
             mkdir ~/scripts
-            wget -qO - https://github.com/StackStorm/st2-packages/raw/master/.circle/packagecloud.sh > ~/scripts/packagecloud.sh
+            wget -qO - https://github.com/coditation/st2-packages/raw/master/.circle/packagecloud.sh > ~/scripts/packagecloud.sh
             chmod 755 ~/scripts/packagecloud.sh
             echo "export PATH=${HOME}/scripts:${PATH}" >> $BASH_ENV
       - run:
@@ -53,9 +53,9 @@ jobs:
           name: Clone st2web
           command: |
             if [[ "${CIRCLE_BRANCH}" =~ v[0-9]+(\.[0-9]+)* ]]; then
-              git clone --depth 1 https://github.com/StackStorm/st2web --branch ${CIRCLE_BRANCH} ~/st2web
+              git clone --depth 1 https://github.com/Coditation/st2web --branch ${CIRCLE_BRANCH} ~/st2web
             else
-              git clone --depth 1 https://github.com/StackStorm/st2web ~/st2web
+              git clone --depth 1 https://github.com/Coditation/st2web ~/st2web
             fi
       - run:
           name: Install package dependencies
@@ -118,7 +118,7 @@ jobs:
             set -x
             apt-get -qq update
             apt-get -y install jq
-            wget -qO - https://github.com/StackStorm/st2-packages/raw/master/.circle/packagecloud.sh > ~/packagecloud.sh
+            wget -qO - https://github.com/Coditation/st2-packages/raw/master/.circle/packagecloud.sh > ~/packagecloud.sh
             chmod 755 ~/packagecloud.sh
             gem install package_cloud
       - run:

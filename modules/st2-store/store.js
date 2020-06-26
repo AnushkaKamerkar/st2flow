@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { createStore, applyMiddleware, compose } from 'redux';
-import routerReducer from '@stackstorm/module-router/reducer';
+import routerReducer from '@coditation/module-router/reducer';
 
 const PATH_NAME = '__path';
 const ACTION_INIT = '@@st2/INIT';

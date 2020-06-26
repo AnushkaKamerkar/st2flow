@@ -23,7 +23,7 @@ import {
   Description,
 } from '../wrappers';
 
-import st2ValueFormat from '@stackstorm/module-value-format';
+import st2ValueFormat from '@coditation/module-value-format';
 
 export default class TextFieldModule extends React.Component {
   static propTypes = {

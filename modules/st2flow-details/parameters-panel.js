@@ -20,7 +20,7 @@ import { PropTypes } from 'prop-types';
 
 import Parameter from './parameter';
 import ParameterEditor from './parameter-editor';
-import Button from '@stackstorm/module-forms/button.component';
+import Button from '@coditation/module-forms/button.component';
 
 import { Panel } from './layout';
 

@@ -14,14 +14,14 @@
 
 //@flow
 
-import type { TaskInterface } from '@stackstorm/st2flow-model/interfaces';
+import type { TaskInterface } from '@coditation/st2flow-model/interfaces';
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { PropTypes } from 'prop-types';
 import cx from 'classnames';
 
-import Editor from '@stackstorm/st2flow-editor';
+import Editor from '@coditation/st2flow-editor';
 import { Toolbar, ToolbarButton } from './layout';
 
 import Meta from './meta-panel';

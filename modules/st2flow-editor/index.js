@@ -14,9 +14,9 @@
 
 //@flow
 
-import type { TaskInterface, DeltaInterface } from '@stackstorm/st2flow-model';
-import type { GenericError } from '@stackstorm/st2flow-model';
-import type { NotificationInterface } from '@stackstorm/st2flow-notifications';
+import type { TaskInterface, DeltaInterface } from '@coditation/st2flow-model';
+import type { GenericError } from '@coditation/st2flow-model';
+import type { NotificationInterface } from '@coditation/st2flow-notifications';
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import store from '@stackstorm/module-store';
+import store from '@coditation/module-store';
 
 export function updateLocation(target, action) {
   const { location } = store.getState();

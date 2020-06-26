@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import { createScopedStore } from '@stackstorm/module-store';
+import { createScopedStore } from '@coditation/module-store';
 
-import { models, OrquestaModel } from '@stackstorm/st2flow-model';
-import { layout } from '@stackstorm/st2flow-model/layout';
-import MetaModel from '@stackstorm/st2flow-model/model-meta';
+import { models, OrquestaModel } from '@coditation/st2flow-model';
+import { layout } from '@coditation/st2flow-model/layout';
+import MetaModel from '@coditation/st2flow-model/model-meta';
 import { debounce, difference, get, uniqueId } from 'lodash';
 
 let workflowModel = new OrquestaModel();

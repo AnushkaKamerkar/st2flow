@@ -19,8 +19,8 @@ import type {
   TaskInterface,
   TaskRefInterface,
   TransitionInterface,
-} from '@stackstorm/st2flow-model/interfaces';
-import type { NotificationInterface } from '@stackstorm/st2flow-notifications';
+} from '@coditation/st2flow-model/interfaces';
+import type { NotificationInterface } from '@coditation/st2flow-notifications';
 import type { Node } from 'react';
 
 import React, { Component } from 'react';
@@ -30,7 +30,7 @@ import cx from 'classnames';
 import fp from 'lodash/fp';
 import { uniqueId, uniq } from 'lodash';
 
-import Notifications from '@stackstorm/st2flow-notifications';
+import Notifications from '@coditation/st2flow-notifications';
 import {HotKeys} from 'react-hotkeys';
 
 import type { BoundingBox } from './routing-graph';

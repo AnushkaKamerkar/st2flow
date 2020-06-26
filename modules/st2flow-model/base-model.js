@@ -21,7 +21,7 @@ import BaseClass from './base-class';
  * Orquesta, Mistra, ActionChain
  *
  * This is based on the server model:
- * https://github.com/StackStorm/orquesta/tree/master/orquesta/specs
+ * https://github.com/Coditation/orquesta/tree/master/orquesta/specs
  */
 class BaseModel extends BaseClass {
   get name() {

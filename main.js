@@ -21,20 +21,20 @@ import { pick, mapValues, get } from 'lodash';
 import cx from 'classnames';
 import url from 'url';
 
-import Header from '@stackstorm/st2flow-header';
-import Palette from '@stackstorm/st2flow-palette';
-import Canvas from '@stackstorm/st2flow-canvas';
-import Details from '@stackstorm/st2flow-details';
+import Header from '@coditation/st2flow-header';
+import Palette from '@coditation/st2flow-palette';
+import Canvas from '@coditation/st2flow-canvas';
+import Details from '@coditation/st2flow-details';
 
-import api from '@stackstorm/module-api';
+import api from '@coditation/module-api';
 
-import CollapseButton from '@stackstorm/st2flow-canvas/collapse-button';
-import { Toolbar, ToolbarButton, ToolbarDropdown } from '@stackstorm/st2flow-canvas/toolbar';
-import AutoForm from '@stackstorm/module-auto-form';
-import Button from '@stackstorm/module-forms/button.component';
+import CollapseButton from '@coditation/st2flow-canvas/collapse-button';
+import { Toolbar, ToolbarButton, ToolbarDropdown } from '@coditation/st2flow-canvas/toolbar';
+import AutoForm from '@coditation/module-auto-form';
+import Button from '@coditation/module-forms/button.component';
 
-import { Router } from '@stackstorm/module-router';
-import globalStore from '@stackstorm/module-store';
+import { Router } from '@coditation/module-router';
+import globalStore from '@coditation/module-store';
 
 import store from './store';
 import style from './style.css';

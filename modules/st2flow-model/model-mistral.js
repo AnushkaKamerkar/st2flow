@@ -15,9 +15,9 @@
 // @flow
 
 import type { ModelInterface, TaskInterface, TaskRefInterface, TransitionInterface, TransitionType } from './interfaces';
-import type { TokenMeta, JpathKey } from '@stackstorm/st2flow-yaml';
+import type { TokenMeta, JpathKey } from '@coditation/st2flow-yaml';
 
-import { crawler, util, TokenSet } from '@stackstorm/st2flow-yaml';
+import { crawler, util, TokenSet } from '@coditation/st2flow-yaml';
 import BaseModel from './base-model';
 
 // The model schema is generated in the mistral repo. Do not update it manually!

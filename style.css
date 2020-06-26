@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-@import 'node_modules/@stackstorm/st2-style/style.css';
+@import 'node_modules/@coditation/st2-style/style.css';
 
 .component {
   display: flex;

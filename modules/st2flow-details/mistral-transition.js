@@ -14,14 +14,14 @@
 
 //@flow
 
-import type { TaskRefInterface, TransitionRefInterface } from '@stackstorm/st2flow-model/interfaces';
+import type { TaskRefInterface, TransitionRefInterface } from '@coditation/st2flow-model/interfaces';
 
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import { connect } from 'react-redux';
 import cx from 'classnames';
 
-import { StringField, SelectField, ColorStringField, EnumField} from '@stackstorm/module-auto-form/fields';
+import { StringField, SelectField, ColorStringField, EnumField} from '@coditation/module-auto-form/fields';
 
 import style from './style.css';
 

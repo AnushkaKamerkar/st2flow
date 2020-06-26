@@ -19,7 +19,7 @@ import type { Node } from 'react';
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 
-import api from '@stackstorm/module-api';
+import api from '@coditation/module-api';
 
 import style from './style.css';
 

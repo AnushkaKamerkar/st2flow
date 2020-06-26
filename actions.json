@@ -69654,7 +69654,7 @@
           }
       },
       "tags": [],
-      "description": "Greet StackStorm from cloudslang ;) !",
+      "description": "Greet Coditation from cloudslang ;) !",
       "enabled": true,
       "entry_point": "workflows/print_text.sl",
       "notify": {},
@@ -69898,7 +69898,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "github_organization_url": {
-              "default": "https://github.com/StackStorm-Exchange",
+              "default": "https://github.com/Coditation-Exchange",
               "required": false,
               "type": "string",
               "description": "Organization url to parse data from"
@@ -73369,7 +73369,7 @@
               "description": "Additional workflow inputs."
           },
           "subject": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string"
           }
       },
@@ -79362,7 +79362,7 @@
               "description": "The name of the workflow to run if the entry_point is a workbook of many workflows. The name should be in the format \"<pack_name>.<action_name>.<workflow_name>\". If entry point is a workflow or a workbook with a single workflow, the runner will identify the workflow automatically."
           },
           "repo_action": {
-              "default": "https://github.com/StackStorm/st2mistral.git",
+              "default": "https://github.com/Coditation/st2mistral.git",
               "required": true,
               "type": "string"
           },
@@ -79398,15 +79398,15 @@
               "type": "string"
           },
           "db_root_pass": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string"
           },
           "repo_base": {
-              "default": "stackstorm",
+              "default": "coditation",
               "required": true,
               "type": "string",
               "enum": [
-                  "stackstorm",
+                  "coditation",
                   "openstack"
               ]
           },
@@ -79416,7 +79416,7 @@
               "description": "Additional workflow inputs."
           },
           "db_user_pass": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string"
           },
           "api_port": {
@@ -79690,7 +79690,7 @@
               "description": "Action timeout in seconds. Action will get killed if it doesn't finish in timeout seconds."
           },
           "db_user_pass": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 4,
               "required": true,
               "type": "string"
@@ -79833,7 +79833,7 @@
               "description": "Working directory where the script will be executed in."
           },
           "db_root_pass": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 7,
               "required": true,
               "type": "string"
@@ -79849,7 +79849,7 @@
               "description": "Action timeout in seconds. Action will get killed if it doesn't finish in timeout seconds."
           },
           "db_user_pass": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 6,
               "required": true,
               "type": "string"
@@ -80080,10 +80080,10 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "st2_repo_root": {
-              "default": "/home/vagrant/projects/stackstorm",
+              "default": "/home/vagrant/projects/coditation",
               "position": 0,
               "type": "string",
-              "description": "Local root path to the StackStorm repositories."
+              "description": "Local root path to the Coditation repositories."
           },
           "sudo": {
               "default": true,
@@ -80103,7 +80103,7 @@
                   "st2",
                   "os"
               ],
-              "description": "Swap to either the StackStorm or OpenStack/StackForge repo.",
+              "description": "Swap to either the Coditation or OpenStack/StackForge repo.",
               "required": true
           },
           "venv_owner": {
@@ -80148,7 +80148,7 @@
           }
       },
       "tags": [],
-      "description": "Switch between the stackstorm/mistral and stackforge/mistral repo for development.",
+      "description": "Switch between the coditation/mistral and stackforge/mistral repo for development.",
       "enabled": true,
       "entry_point": "switch.sh",
       "notify": {},
@@ -80213,7 +80213,7 @@
               "type": "string"
           },
           "db_root_pass": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string"
           },
           "distro": {
@@ -80270,7 +80270,7 @@
               "description": "Passphrase for the private key, if needed."
           },
           "db_root_pass": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 3,
               "required": true,
               "type": "string"
@@ -81160,7 +81160,7 @@
               "type": "array"
           },
           "abs_repo_base": {
-              "default": "/opt/stackstorm/packs/",
+              "default": "/opt/coditation/packs/",
               "type": "string",
               "immutable": true
           },
@@ -81220,7 +81220,7 @@
               "type": "array"
           },
           "abs_repo_base": {
-              "default": "/opt/stackstorm/packs/",
+              "default": "/opt/coditation/packs/",
               "type": "string",
               "immutable": true
           },
@@ -81244,7 +81244,7 @@
               "default": false,
               "required": false,
               "type": "boolean",
-              "description": "Set to True to force install the pack and skip StackStorm version compatibility check"
+              "description": "Set to True to force install the pack and skip Coditation version compatibility check"
           },
           "verifyssl": {
               "default": true,
@@ -81375,7 +81375,7 @@
               "default": false,
               "required": false,
               "type": "boolean",
-              "description": "Set to True to force install the pack and skip StackStorm version compatibility check and also delete and ignore lock file if one exists."
+              "description": "Set to True to force install the pack and skip Coditation version compatibility check and also delete and ignore lock file if one exists."
           },
           "packs": {
               "items": {
@@ -81705,7 +81705,7 @@
           }
       },
       "tags": [],
-      "description": "Get detailed information about pack from the remote StackStorm exchange index.",
+      "description": "Get detailed information about pack from the remote Coditation exchange index.",
       "enabled": true,
       "entry_point": "pack_mgmt/show_remote.py",
       "notify": {},
@@ -82873,7 +82873,7 @@
               "description": "Git revision of the pack content to use for this action execution (git commit sha / tag / branch). Only applies to packs which are git repositories."
           },
           "message": {
-              "default": "Stash created by StackStorm",
+              "default": "Stash created by Coditation",
               "type": "string",
               "description": "Message to post with the silence stash."
           },
@@ -93481,7 +93481,7 @@
           }
       },
       "tags": [],
-      "description": "Retrieve a list of available StackStorm actions.",
+      "description": "Retrieve a list of available Coditation actions.",
       "enabled": true,
       "entry_point": "actions_list.py",
       "notify": {},
@@ -93506,7 +93506,7 @@
           }
       },
       "tags": [],
-      "description": "Sends anonymous data install data to a StackStorm write-only S3 dropbox",
+      "description": "Sends anonymous data install data to a Coditation write-only S3 dropbox",
       "enabled": true,
       "entry_point": "workflows/call_home.yaml",
       "notify": {},
@@ -94208,7 +94208,7 @@
           }
       },
       "tags": [],
-      "description": "Retrieve a list of available StackStorm rules",
+      "description": "Retrieve a list of available Coditation rules",
       "enabled": true,
       "entry_point": "rules_list.py",
       "notify": {},
@@ -94272,7 +94272,7 @@
           }
       },
       "tags": [],
-      "description": "Retrieve a list of available StackStorm sensors.",
+      "description": "Retrieve a list of available Coditation sensors.",
       "enabled": true,
       "entry_point": "sensors_list.py",
       "notify": {},
@@ -94335,7 +94335,7 @@
           }
       },
       "tags": [],
-      "description": "Sends collected data to write-only StackStorm S3 bucket",
+      "description": "Sends collected data to write-only Coditation S3 bucket",
       "enabled": true,
       "entry_point": "upload_to_s3.py",
       "notify": {},
@@ -95091,7 +95091,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -95223,7 +95223,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -95355,7 +95355,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -95487,7 +95487,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -95549,7 +95549,7 @@
               "type": "string"
           },
           "repo": {
-              "default": "https://github.com/StackStorm/st2docs.git",
+              "default": "https://github.com/Coditation/st2docs.git",
               "type": "string",
               "description": "Url of the docs repo to clone"
           },
@@ -95565,7 +95565,7 @@
           },
           "environment": {
               "type": "string",
-              "description": "'production' to deploy to docs.stackstorm.com, or 'staging'"
+              "description": "'production' to deploy to docs.coditation.com, or 'staging'"
           },
           "revision": {
               "type": "string",
@@ -95592,7 +95592,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string",
               "description": "Fork to use"
           },
@@ -95644,7 +95644,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string",
               "description": "Fork to use"
           },
@@ -95779,7 +95779,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -95911,7 +95911,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -96037,7 +96037,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -96169,7 +96169,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -96304,7 +96304,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -96430,7 +96430,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -96556,7 +96556,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -96605,7 +96605,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string",
               "description": "Fork to use"
           },
@@ -96740,7 +96740,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -96872,7 +96872,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -97004,7 +97004,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -97136,7 +97136,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -97268,7 +97268,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -97317,7 +97317,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string",
               "description": "Fork to use"
           },
@@ -97446,7 +97446,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -97572,7 +97572,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -97698,7 +97698,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -97824,7 +97824,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -97950,7 +97950,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -98076,7 +98076,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -98205,7 +98205,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -98331,7 +98331,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -98457,7 +98457,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -99098,12 +99098,12 @@
               "description": "Intermediate published variables will be stored and displayed."
           },
           "key_name": {
-              "default": "stackstorm-team-west",
+              "default": "coditation-team-west",
               "type": "string",
               "description": "SSH key to use during intial instance creation"
           },
           "dns_zone": {
-              "default": "uswest2.stackstorm.net",
+              "default": "uswest2.coditation.net",
               "type": "string",
               "description": "Route53 DNS Zone to add host to"
           },
@@ -99140,7 +99140,7 @@
               "immutable": true
           },
           "keyfile": {
-              "default": "/home/stanley/.ssh/stackstorm_team_west.pem",
+              "default": "/home/stanley/.ssh/coditation_team_west.pem",
               "type": "string",
               "description": "Path to local private key that corresponds to {{key_name}}"
           },
@@ -99209,7 +99209,7 @@
               "description": "SSH key to use during intial instance creation"
           },
           "dns_zone": {
-              "default": "uswest2.stackstorm.net",
+              "default": "uswest2.Coditation.net",
               "type": "string",
               "description": "Route53 DNS Zone to add host to"
           },
@@ -99329,7 +99329,7 @@
               "description": "Windows key to use during intial instance creation. This is important as it's used to encrypt the randmly generated password when the VM is created."
           },
           "dns_zone": {
-              "default": "uswest2.stackstorm.net",
+              "default": "uswest2.coditation.net",
               "type": "string",
               "description": "Route53 DNS Zone to add host to"
           },
@@ -99426,7 +99426,7 @@
               "description": "The name of the workflow to run if the entry_point is a workbook of many workflows. The name should be in the format \"<pack_name>.<action_name>.<workflow_name>\". If entry point is a workflow or a workbook with a single workflow, the runner will identify the workflow automatically."
           },
           "dns_zone": {
-              "default": "uswest2.stackstorm.net",
+              "default": "uswest2.coditation.net",
               "type": "string",
               "description": "Route53 DNS zone where the VM is deployed"
           },
@@ -99532,7 +99532,7 @@
           }
       },
       "tags": [],
-      "description": "Runs a series of end to end tests on a StackStorm server",
+      "description": "Runs a series of end to end tests on a Coditation server",
       "enabled": true,
       "entry_point": "workflows/e2e_tests.yaml",
       "notify": {},
@@ -99620,7 +99620,7 @@
               "description": "Private key material or path to the private key file on disk used to log in."
           },
           "cmd": {
-              "default": "curl -XGET -o {{dir}}/{{file}} -u {{token}}:x-oauth-basic https://raw.githubusercontent.com/StackStorm/st2puppet/{{branch}}/script/{{file}}",
+              "default": "curl -XGET -o {{dir}}/{{file}} -u {{token}}:x-oauth-basic https://raw.githubusercontent.com/Coditation/st2puppet/{{branch}}/script/{{file}}",
               "type": "string",
               "description": "Arbitrary Linux command to be executed on the remote host(s).",
               "immutable": true
@@ -101030,7 +101030,7 @@
               "description": "The host SSH connections will be proxied through. Note: This connection is made using the same parameters as the final connection, and is only used in ParamikoSSHRunner."
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -102407,15 +102407,15 @@
               "description": "The name of the workflow to run if the entry_point is a workbook of many workflows. The name should be in the format \"<pack_name>.<action_name>.<workflow_name>\". If entry point is a workflow or a workbook with a single workflow, the runner will identify the workflow automatically."
           },
           "repo_action": {
-              "default": "git@github.com:StackStorm/st2mistral.git",
+              "default": "git@github.com:Coditation/st2mistral.git",
               "type": "string"
           },
           "repo_client": {
-              "default": "git@github.com:StackStorm/python-mistralclient.git",
+              "default": "git@github.com:Coditation/python-mistralclient.git",
               "type": "string"
           },
           "repo_main": {
-              "default": "git@github.com:StackStorm/mistral.git",
+              "default": "git@github.com:Coditation/mistral.git",
               "type": "string"
           },
           "repo_branch": {
@@ -102735,7 +102735,7 @@
               "description": "The name of the task to run for reverse workflow."
           },
           "mis_repo_main": {
-              "default": "git@github.com:StackStorm/mistral.git",
+              "default": "git@github.com:Coditation/mistral.git",
               "type": "string"
           },
           "build_host": {
@@ -102764,7 +102764,7 @@
               "type": "string"
           },
           "mis_repo_client": {
-              "default": "git@github.com:StackStorm/python-mistralclient.git",
+              "default": "git@github.com:Coditation/python-mistralclient.git",
               "type": "string"
           },
           "context": {
@@ -102777,7 +102777,7 @@
               "type": "string"
           },
           "mis_repo_action": {
-              "default": "git@github.com:StackStorm/st2mistral.git",
+              "default": "git@github.com:Coditation/st2mistral.git",
               "type": "string"
           }
       },
@@ -102813,11 +102813,11 @@
               "description": "The name of the workflow to run if the entry_point is a workbook of many workflows. The name should be in the format \"<pack_name>.<action_name>.<workflow_name>\". If entry point is a workflow or a workbook with a single workflow, the runner will identify the workflow automatically."
           },
           "repo_client": {
-              "default": "git@github.com:StackStorm/python-mistralclient.git",
+              "default": "git@github.com:Coditation/python-mistralclient.git",
               "type": "string"
           },
           "repo_main": {
-              "default": "git@github.com:StackStorm/mistral.git",
+              "default": "git@github.com:Coditation/mistral.git",
               "type": "string"
           },
           "repo_branch": {
@@ -102830,7 +102830,7 @@
               "type": "boolean"
           },
           "repo_action": {
-              "default": "git@github.com:StackStorm/st2mistral.git",
+              "default": "git@github.com:Coditation/st2mistral.git",
               "type": "string"
           },
           "version": {
@@ -102901,7 +102901,7 @@
               "description": "The remote command will be executed with sudo."
           },
           "bucket": {
-              "default": "st2coverage.stackstorm.net",
+              "default": "st2coverage.coditation.net",
               "position": 1,
               "required": true,
               "type": "string",
@@ -103131,7 +103131,7 @@
       "name": "pypi_upload",
       "parameters": {
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 3,
               "type": "string",
               "description": "Fork to use"
@@ -103282,7 +103282,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "repo": {
-              "default": "https://github.com/StackStorm/st2.git",
+              "default": "https://github.com/Coditation/st2.git",
               "required": true,
               "type": "string",
               "description": "Url of the repo to clone"
@@ -103719,7 +103719,7 @@
               "description": "The remote command will be executed with sudo."
           },
           "bucket": {
-              "default": "docs-staging.stackstorm.net",
+              "default": "docs-staging.coditation.net",
               "position": 1,
               "required": true,
               "type": "string",
@@ -104187,7 +104187,7 @@
               "description": "Path to clone st2 repo to."
           },
           "st2_repo": {
-              "default": "https://github.com/StackStorm/st2.git",
+              "default": "https://github.com/Coditation/st2.git",
               "type": "string",
               "description": "Url of the st2 repo to clone"
           },
@@ -104217,7 +104217,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "repo": {
-              "default": "https://github.com/StackStorm/st2.git",
+              "default": "https://github.com/Coditation/st2.git",
               "type": "string",
               "description": "Url of the repo to clone"
           },
@@ -104257,7 +104257,7 @@
           "version": {
               "default": "0.8.3",
               "type": "string",
-              "description": "Version of StackStorm to deploy"
+              "description": "Version of Coditation to deploy"
           },
           "role": {
               "default": "st2staging",
@@ -104354,7 +104354,7 @@
               "description": "Server where the build artifacts are published."
           },
           "repo_name": {
-              "default": "StackStorm/st2-enterprise-auth-backend-ldap",
+              "default": "Coditation/st2-enterprise-auth-backend-ldap",
               "required": true,
               "type": "string",
               "description": "GitHub repo ex. ORG/REPO"
@@ -104426,7 +104426,7 @@
               "description": "Server where the build artifacts are published."
           },
           "repo_name": {
-              "default": "StackStorm/st2-auth-backend-pam",
+              "default": "Coditation/st2-auth-backend-pam",
               "required": true,
               "type": "string",
               "description": "GitHub repo ex. ORG/REPO"
@@ -104623,7 +104623,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -104760,7 +104760,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -104892,7 +104892,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -105024,7 +105024,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -105068,7 +105068,7 @@
       "name": "st2_chg_ver_for_st2",
       "parameters": {
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -105300,7 +105300,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -105432,7 +105432,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -105481,7 +105481,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "repo": {
-              "default": "https://github.com/StackStorm/st2.git",
+              "default": "https://github.com/Coditation/st2.git",
               "type": "string",
               "description": "Url of the repo to clone"
           },
@@ -105517,7 +105517,7 @@
           "version": {
               "default": "0.8.3",
               "type": "string",
-              "description": "Version of StackStorm to deploy"
+              "description": "Version of Coditation to deploy"
           },
           "role": {
               "default": "",
@@ -105582,11 +105582,11 @@
               "description": "git author"
           },
           "docs_url": {
-              "default": "docs-staging.uswest2.stackstorm.net",
+              "default": "docs-staging.uswest2.coditation.net",
               "type": "string"
           },
           "repo": {
-              "default": "https://github.com/StackStorm/st2docs.git",
+              "default": "https://github.com/Coditation/st2docs.git",
               "type": "string",
               "description": "Url of the docs repo to clone"
           },
@@ -105603,7 +105603,7 @@
           },
           "environment": {
               "type": "string",
-              "description": "'production' to deploy to docs.stackstorm.com, or 'staging'"
+              "description": "'production' to deploy to docs.coditation.com, or 'staging'"
           },
           "revision": {
               "type": "string",
@@ -105847,7 +105847,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string",
               "description": "Fork to use"
           },
@@ -106014,7 +106014,7 @@
               "description": "Passphrase for the private key, if needed."
           },
           "docs_url": {
-              "default": "docs.stackstorm.com",
+              "default": "docs.coditation.com",
               "position": 4,
               "type": "string",
               "description": "URL of the docs website"
@@ -106066,7 +106066,7 @@
               "description": "Name of the branch to use"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -106221,7 +106221,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string",
               "description": "Fork to use"
           },
@@ -106356,7 +106356,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -106493,7 +106493,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -106557,7 +106557,7 @@
               "default": "",
               "immutable": true
           },
-          "sudo_password": {
+          "sudo_password": {Coditation
               "default": null,
               "secret": true,
               "required": false,
@@ -106625,7 +106625,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -106757,7 +106757,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -106889,7 +106889,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -106938,7 +106938,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string",
               "description": "Fork to use"
           },
@@ -107073,7 +107073,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -107210,7 +107210,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -107342,7 +107342,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -107474,7 +107474,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -107518,7 +107518,7 @@
       "name": "st2_prep_patch_for_st2",
       "parameters": {
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -107750,7 +107750,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -107882,7 +107882,7 @@
               "description": "Branch to update"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -107931,7 +107931,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string",
               "description": "Fork to use"
           },
@@ -107978,7 +107978,7 @@
       "name": "st2_prep_release_cd_rules",
       "parameters": {
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 1,
               "type": "string",
               "description": "Fork to use"
@@ -108205,7 +108205,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 1,
               "type": "string",
               "description": "Fork to use"
@@ -108331,7 +108331,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -108462,7 +108462,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -108588,7 +108588,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -108714,7 +108714,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -108840,7 +108840,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -108966,7 +108966,7 @@
               "description": "Environment variables which will be available to the script(e.g. key1=val1,key2=val2)"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -109338,7 +109338,7 @@
               "description": "Action timeout in seconds. Action will get killed if it doesn't finish in timeout seconds."
           },
           "config_file": {
-              "default": "/opt/stackstorm/static/webui/config.js",
+              "default": "/opt/coditation/static/webui/config.js",
               "position": 0,
               "type": "string",
               "description": "config file path"
@@ -109885,7 +109885,7 @@
               "description": "List of tasks to skip notifications for."
           },
           "repo": {
-              "default": "git@github.com:StackStorm/st2contrib.git",
+              "default": "git@github.com:Coditation/st2contrib.git",
               "required": true,
               "type": "string",
               "description": "Url of the repo to clone and push to"
@@ -110019,7 +110019,7 @@
               "description": "Git branch to checkout"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -110265,7 +110265,7 @@
               "description": "Git branch to checkout"
           },
           "fork": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "position": 2,
               "type": "string",
               "description": "Fork to use"
@@ -110437,7 +110437,7 @@
               "description": "Environment where to run the packaging action"
           },
           "repo": {
-              "default": "https://github.com/StackStorm/st2web.git",
+              "default": "https://github.com/Coditation/st2web.git",
               "required": false,
               "type": "string",
               "description": "Url of the repo to clone."
@@ -110709,7 +110709,7 @@
           }
       },
       "tags": [],
-      "description": "Backup logs for StackStorm and related components.",
+      "description": "Backup logs for Coditation and related components.",
       "enabled": true,
       "entry_point": "backup_logs.sh",
       "notify": {},
@@ -111018,7 +111018,7 @@
           }
       },
       "tags": [],
-      "description": "Install StackStorm and related components.",
+      "description": "Install Coditation and related components.",
       "enabled": true,
       "entry_point": "install_st2.sh",
       "notify": {},
@@ -111048,7 +111048,7 @@
               "description": "The name of the hosts where the build process will run."
           },
           "mis_db_root_pass": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string"
           },
           "mis_repo_client": {
@@ -111060,7 +111060,7 @@
               "type": "string"
           },
           "mis_repo_action": {
-              "default": "https://github.com/StackStorm/st2mistral.git",
+              "default": "https://github.com/Coditation/st2mistral.git",
               "type": "string"
           },
           "distro": {
@@ -111086,9 +111086,9 @@
               "type": "string"
           },
           "mis_repo_base": {
-              "default": "stackstorm",
+              "default": "coditation",
               "enum": [
-                  "stackstorm",
+                  "coditation",
                   "openstack"
               ],
               "type": "string"
@@ -111116,7 +111116,7 @@
               "type": "string"
           },
           "st2_repo": {
-              "default": "https://github.com/StackStorm/st2.git",
+              "default": "https://github.com/Coditation/st2.git",
               "type": "string"
           },
           "mis_db_name": {
@@ -111128,7 +111128,7 @@
               "type": "string"
           },
           "mis_db_user_pass": {
-              "default": "StackStorm",
+              "default": "Coditation",
               "type": "string"
           },
           "task": {
@@ -111253,7 +111253,7 @@
               "description": "The name of the workflow to run if the entry_point is a workbook of many workflows. The name should be in the format \"<pack_name>.<action_name>.<workflow_name>\". If entry point is a workflow or a workbook with a single workflow, the runner will identify the workflow automatically."
           },
           "repo": {
-              "default": "https://github.com/StackStorm/st2.git",
+              "default": "https://github.com/Coditation/st2.git",
               "type": "string"
           },
           "repo_branch": {
@@ -111276,7 +111276,7 @@
           }
       },
       "tags": [],
-      "description": "Install and configure a running instance of StackStorm from git repo.",
+      "description": "Install and configure a running instance of Coditation from git repo.",
       "enabled": true,
       "entry_point": "workflows/setup_st2.yaml",
       "notify": {},
@@ -111297,7 +111297,7 @@
               "type": "string"
           },
           "dns_zone": {
-              "default": "uswest2.stackstorm.net",
+              "default": "uswest2.coditation.net",
               "type": "string",
               "description": "Route53 DNS Zone to add host to"
           },
@@ -112279,7 +112279,7 @@
               "type": "string"
           },
           "dns_zone": {
-              "default": "uswest2.stackstorm.net",
+              "default": "uswest2.coditation.net",
               "type": "string",
               "description": "Route53 DNS Zone to add host to"
           },
@@ -112499,7 +112499,7 @@
           }
       },
       "tags": [],
-      "description": "Teardown a running instance of StackStorm.",
+      "description": "Teardown a running instance of Coditation.",
       "enabled": true,
       "entry_point": "workflows/teardown_st2.yaml",
       "notify": {},
@@ -113818,7 +113818,7 @@
                   "https"
               ],
               "type": "string",
-              "description": "Protocol for communicating with the StackStorm API (http/https)"
+              "description": "Protocol for communicating with the Coditation API (http/https)"
           },
           "hostname": {
               "default": "127.0.0.1",

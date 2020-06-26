@@ -16,8 +16,8 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 
-import StringField from '@stackstorm/module-auto-form/fields/string';
-import { BaseTextField } from '@stackstorm/module-auto-form/fields/base';
+import StringField from '@coditation/module-auto-form/fields/string';
+import { BaseTextField } from '@coditation/module-auto-form/fields/base';
 
 import style from './style.css';
 

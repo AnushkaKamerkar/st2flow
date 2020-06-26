@@ -14,9 +14,9 @@
 
 import { expect } from 'chai';
 
-import '@stackstorm/module-test-utils/bootstrap/st2constants';
-import '@stackstorm/module-test-utils/bootstrap/storage';
-import '@stackstorm/module-test-utils/bootstrap/location';
+import '@coditation/module-test-utils/bootstrap/st2constants';
+import '@coditation/module-test-utils/bootstrap/storage';
+import '@coditation/module-test-utils/bootstrap/location';
 import api, { API } from '..';
 
 import moxios from 'moxios';

@@ -17,9 +17,9 @@ import React from 'react';
 import { PropTypes } from 'prop-types';
 import { connect } from 'react-redux';
 
-import api from '@stackstorm/module-api';
-import Login from '@stackstorm/module-login';
-import store from '@stackstorm/module-store';
+import api from '@coditation/module-api';
+import Login from '@coditation/module-login';
+import store from '@coditation/module-store';
 
 import history from './history';
 import { updateLocation } from './methods';

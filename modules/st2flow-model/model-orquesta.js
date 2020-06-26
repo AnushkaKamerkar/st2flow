@@ -16,15 +16,15 @@
 import _ from 'lodash';
 
 import type { ModelInterface, TaskInterface, TaskRefInterface, TransitionInterface } from './interfaces';
-import type { TokenMeta, JPath, JpathKey } from '@stackstorm/st2flow-yaml';
+import type { TokenMeta, JPath, JpathKey } from '@coditation/st2flow-yaml';
 
 import diff from 'deep-diff';
-import { crawler } from '@stackstorm/st2flow-yaml';
+import { crawler } from '@coditation/st2flow-yaml';
 import BaseModel from './base-model';
 
 // The model schema is generated in the orquesta repo. Do not update it manually!
-// https://github.com/StackStorm/orquesta/blob/master/docs/source/schemas/orquesta.json
-// https://github.com/StackStorm/orquesta/blob/master/orquesta/specs/native/v1/models.py
+// https://github.com/Coditation/orquesta/blob/master/docs/source/schemas/orquesta.json
+// https://github.com/Coditation/orquesta/blob/master/orquesta/specs/native/v1/models.py
 import schema from './schemas/orquesta.json';
 
 const REGEX_VALUE_IN_BRACKETS = '\\[.*\\]\\s*';

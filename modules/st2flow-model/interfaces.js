@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // @flow
-import type { JpathKey, Range } from '@stackstorm/st2flow-yaml';
+import type { JpathKey, Range } from '@coditation/st2flow-yaml';
 
 export type TransitionType = 'Success' | 'Error' | 'Complete';
 

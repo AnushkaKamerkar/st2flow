@@ -18,7 +18,7 @@
 // Includes Binary Heap (with modifications) from Marijn Haverbeke.
 // http://eloquentjavascript.net/appendix2.html
 
-import { ORBIT_DISTANCE } from '@stackstorm/st2flow-canvas/const';
+import { ORBIT_DISTANCE } from '@coditation/st2flow-canvas/const';
 
 function pathTo(node) {
   let curr = node;

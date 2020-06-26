@@ -14,15 +14,15 @@
 
 //@flow
 
-import type { TaskRefInterface } from '@stackstorm/st2flow-model/interfaces';
+import type { TaskRefInterface } from '@coditation/st2flow-model/interfaces';
 
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import { connect } from 'react-redux';
 import cx from 'classnames';
 
-import { StringField, SelectField, ColorStringField } from '@stackstorm/module-auto-form/fields';
-import { Toggle } from '@stackstorm/module-forms/button.component';
+import { StringField, SelectField, ColorStringField } from '@coditation/module-auto-form/fields';
+import { Toggle } from '@coditation/module-forms/button.component';
 import { StringPropertiesPanel } from './string-properties';
 
 import style from './style.css';

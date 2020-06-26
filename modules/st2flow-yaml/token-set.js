@@ -21,7 +21,7 @@ import Objectifier from './objectifier';
 import stringifier from './stringifier';
 import Refinery from './token-refinery';
 import factory from './token-factory';
-import perf from '@stackstorm/st2flow-perf';
+import perf from '@coditation/st2flow-perf';
 
 const REG_CARRIAGE = /\r/g;
 const REG_NEWLINE = /\n/;

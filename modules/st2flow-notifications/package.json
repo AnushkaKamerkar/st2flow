@@ -1,9 +1,9 @@
 {
-  "name": "@stackstorm/st2flow-notifications",
+  "name": "@coditation/st2flow-notifications",
   "version": "1.0.0",
   "description": "A package for displaying notifications and errors in the st2flow UI",
   "author": "Ryan Wheale <ryan.wheale@gmail.com>",
-  "homepage": "https://github.com/stackstorm/st2web#readme",
+  "homepage": "https://github.com/coditation/st2web#readme",
   "license": "Apache-2.0",
   "main": "index.js",
   "publishConfig": {
@@ -13,7 +13,7 @@
     "transform": [
       "babelify",
       [
-        "@stackstorm/browserify-postcss",
+        "@coditation/browserify-postcss",
         {
           "extensions": [
             ".css"
@@ -33,12 +33,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stackstorm/st2web.git"
+    "url": "git+https://github.com/coditation/st2web.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/stackstorm/st2web/issues"
+    "url": "https://github.com/coditation/st2web/issues"
   }
 }

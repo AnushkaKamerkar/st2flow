@@ -14,7 +14,7 @@
 
 //@flow
 
-import type { TaskInterface } from '@stackstorm/st2flow-model/interfaces';
+import type { TaskInterface } from '@coditation/st2flow-model/interfaces';
 
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';

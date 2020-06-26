@@ -2,7 +2,7 @@
 %define version %(echo "${PKG_VERSION:-%{pkg_version}}")
 %define release %(echo "${PKG_RELEASE:-1}")
 #define epoch %(_epoch=`echo %{version} | grep -q dev || echo 1`; echo "${_epoch:-0}")
-%define webui_configjs /opt/stackstorm/static/webui/config.js
+%define webui_configjs /opt/coditation/static/webui/config.js
 
 Name:           st2flow
 Version:        %{version}
@@ -15,10 +15,10 @@ Summary:        Extreme Workflow Designer
 Requires: perl, st2web
 
 License:        Apache License, Version 2.0
-URL:            https://github.com/StackStorm/st2flow
+URL:            https://github.com/Coditation/st2flow
 Source0:        st2flow
 
-Prefix:         /opt/stackstorm/static/webui/flow
+Prefix:         /opt/coditation/static/webui/flow
 
 %define _builddir %(pwd)
 %define _rpmdir %(pwd)/..

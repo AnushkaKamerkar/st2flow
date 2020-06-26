@@ -1,5 +1,5 @@
 {
-  "name": "@stackstorm/st2flow-canvas",
+  "name": "@coditation/st2flow-canvas",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stackstorm/st2web.git"
+    "url": "git+https://github.com/coditation/st2web.git"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/stackstorm/st2web/issues"
+    "url": "https://github.com/coditation/st2web/issues"
   },
-  "homepage": "https://github.com/stackstorm/st2web#readme",
+  "homepage": "https://github.com/coditation/st2web#readme",
   "browserify": {
     "transform": [
       "babelify",
       [
-        "@stackstorm/browserify-postcss",
+        "@coditation/browserify-postcss",
         {
           "extensions": [
             ".css"
@@ -45,12 +45,12 @@
     "access": "public"
   },
   "dependencies": {
-    "@stackstorm/st2flow-notifications": "^1.0.0",
+    "@coditation/st2flow-notifications": "^1.0.0",
     "insert-css": "2.0.0",
     "react-hotkeys": "^1.1.4"
   },
   "devDependencies": {
-    "@stackstorm/browserify-postcss": "0.3.4-patch.5",
+    "@coditation/browserify-postcss": "0.3.4-patch.5",
     "babelify": "10.0.0",
     "classnames": "^2.2.6",
     "postcss": "7.0.14",
